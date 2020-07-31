@@ -1,4 +1,4 @@
-# Example of usage Lykke Trading API
+# Example of usage Lykke Trading API with C#
 
 Lykke Trading API documentation: [https://lykkecity.github.io/Trading-API/](https://lykkecity.github.io/Trading-API/)
 
