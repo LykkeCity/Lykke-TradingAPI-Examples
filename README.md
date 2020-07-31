@@ -4,7 +4,7 @@ Lykke Trading API documentation: [https://lykkecity.github.io/Trading-API/](http
 
 ## Client library
 
-To build client librari in dotnet core 3 need to add .proto files into project and configurate autogeneration for gRPC.
+To build client library in `dotnet core 3` need to add .proto files into the project and configure autogeneration for gRPC.
 
 Details you can see here: [TradingApi.Client](https://github.com/LykkeCity/Lykke-TradingAPI-Examples/tree/master/src/TradingApi.Client)
 
