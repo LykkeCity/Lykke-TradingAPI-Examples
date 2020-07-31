@@ -68,8 +68,7 @@ Subscribe to price stream
   
 ## Example: How to make a trader bot
 
-In this example you can see how work simple trading bot. Idea of bot - provide liquidity to several sell and buy levels. It order is matched then trading bot shold create a new order to compensate privios. A new order created with spread = Delta.
-In this case if market go up and down then traqding boot make a Profit from each level = LevelVolume * Delta.
+In this example, you can see how to work simple trading bot. The idea of bot - provide liquidity to several sell levels and several buy levels. If an order is matched then trading bot should create a new order to compensate previous. A new order created with spread = Delta. In this case, if the market goes up and down then trading boot makes a `Profit from each level = LevelVolume * Delta`.
 
 We need to:
 1. Create a Limit Order
@@ -77,5 +76,5 @@ We need to:
 3. Get Limit Order status
 4. Subscribe to trade stream by account
 
-implementation of trading boot you can see here: [SimpleLP](https://github.com/LykkeCity/Lykke-TradingAPI-Examples/blob/master/src/SimpleLP/Program.cs)
+Implementation of trading boot you can see here: [SimpleLP](https://github.com/LykkeCity/Lykke-TradingAPI-Examples/blob/master/src/SimpleLP/Program.cs)
   
